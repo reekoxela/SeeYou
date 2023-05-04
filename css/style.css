@@ -1,0 +1,563 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "MarckScript";
+  src: url("../fonts/MarckScript-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+/* line 16, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 19, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+html {
+  font-family: "MarckScript";
+  font-weight: regular;
+}
+
+/* line 23, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+body {
+  background-color: #00130F;
+}
+
+/* line 26, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 31, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.first-section {
+  position: relative;
+  min-height: 800px;
+  padding-top: 10px;
+}
+
+/* line 35, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.first-section__navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 300px;
+}
+
+/* line 40, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.first-section__img {
+  border: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #181818, #abb557, #181818) 1 100%;
+  margin-bottom: 40px;
+}
+
+/* line 48, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.right-wrapper__text {
+  color: lemonchiffon;
+  font-size: 40px;
+}
+
+/* line 53, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+
+/* line 57, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 40px;
+  font-size: 24px;
+}
+
+/* line 60, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0;
+}
+
+/* line 62, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: #b1b1b1;
+}
+
+/* line 65, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.nav-menu__list-item a:hover {
+  color: #ffffff;
+}
+
+/* line 68, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-bottom: 35px;
+}
+
+/* line 73, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
+}
+
+/* line 80, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0;
+}
+
+/* line 82, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.icons__item i {
+  font-size: 50px;
+  color: #b1b1b1;
+}
+
+/* line 85, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.icons__item i:hover {
+  color: #ffffff;
+}
+
+/* line 89, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.buttons__btn-row {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 94, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.buttons__btn {
+  width: 540px;
+  height: 60px;
+  background: linear-gradient(180deg, #8d824d 0%, rgba(99, 99, 99, 0) 100%);
+  border: none;
+  border-radius: 100px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  color: #b1b1b1;
+}
+
+/* line 103, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.buttons__btn:hover {
+  background: linear-gradient(180deg, #00809d 0%, rgba(99, 99, 99, 0) 100%);
+  color: white;
+}
+
+/* line 107, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.third-section {
+  min-height: 590px;
+}
+
+/* line 109, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.third-section__about-img {
+  min-height: 480px;
+  background-image: url("../img/About.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 115, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.third-section__title {
+  margin-bottom: 20px;
+}
+
+/* line 117, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.third-section__about-text {
+  width: 90%;
+  font-size: 32px;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+/* line 123, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fourth-section {
+  min-height: 520px;
+}
+
+/* line 125, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fourth-section__title {
+  margin-bottom: 20px;
+}
+
+/* line 127, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fourth-section__cards-box {
+  display: inline-flex;
+  justify-content: center;
+}
+
+/* line 130, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fourth-section__cards-item {
+  margin-right: 27px;
+}
+
+/* line 132, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fourth-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 135, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.title {
+  font-size: 64px;
+  color: white;
+  position: relative;
+}
+
+/* line 139, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.title__hr {
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  border: none;
+  border-top: 3px solid white;
+  opacity: 1;
+}
+
+/* line 148, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 262px;
+  height: 420px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* line 154, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.cards-item:hover {
+  border: 2px solid lemonchiffon;
+}
+
+/* line 156, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.cards-item__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #000000 10%, rgba(217, 217, 217, 0) 100%);
+}
+
+/* line 161, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.cards-item__text {
+  position: absolute;
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  color: #707070;
+  top: 335px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 169, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.cards-item__text-vertical {
+  position: absolute;
+  width: 280px;
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  color: #dddfd1;
+  text-align: center;
+  transform: rotate(90deg);
+  top: 200px;
+  right: -115px;
+}
+
+/* line 180, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fifth-section {
+  min-height: 550px;
+}
+
+/* line 182, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fifth-section__title {
+  margin-block: 20px;
+}
+
+/* line 184, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fifth-section__cards-box {
+  display: inline-flex;
+  justify-content: center;
+}
+
+/* line 187, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fifth-section__cards-item {
+  margin-right: 27px;
+}
+
+/* line 189, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.fifth-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 192, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.sixth-section {
+  min-height: 750px;
+}
+
+/* line 194, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.sixth-section__container {
+  margin-bottom: 30px;
+}
+
+/* line 196, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.sixth-section__title {
+  margin-bottom: 20px;
+}
+
+/* line 200, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.carousel-item img {
+  height: 750px;
+  object-fit: cover;
+}
+
+/* line 204, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.seventh-section {
+  min-height: 625px;
+}
+
+/* line 206, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.seventh-section__title {
+  margin-bottom: 20px;
+}
+
+/* line 209, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer {
+  min-height: 420px;
+}
+
+/* line 211, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer__text {
+  margin-bottom: 50px;
+}
+
+/* line 213, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* line 218, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer__right-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 221, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer__right-wrapper img {
+  width: 80px;
+}
+
+/* line 223, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer__icon-box {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 227, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+.footer-text {
+  font-size: 38px;
+  color: #b1b1b1;
+  text-align: center;
+}
+
+@media (max-width: 1199x) {
+  /* line 234, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 239, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 242, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .nav-menu__list-item {
+    font-size: 16px;
+  }
+  /* line 246, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .icons__item {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 249, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .icons i {
+    font-size: 40px;
+  }
+  /* line 253, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 28px;
+  }
+  /* line 256, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section {
+    min-height: 590px;
+  }
+  /* line 258, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section__logo {
+    width: 200px;
+  }
+  /* line 260, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section__big-img {
+    width: 750px;
+  }
+  /* line 262, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section__navigation-container {
+    min-height: 200px;
+  }
+  /* line 266, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .buttons__btn {
+    width: 320px;
+    height: 50px;
+  }
+  /* line 270, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .title {
+    font-size: 52px;
+  }
+  /* line 274, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .third-section__about-text {
+    font-size: 26px;
+  }
+  /* line 277, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .fourth-section {
+    min-height: 960px;
+  }
+  /* line 279, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .fourth-section__cards-box {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* line 284, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .cards-item {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  /* line 288, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .fifth-section {
+    min-height: 960px;
+  }
+  /* line 290, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .fifth-section__cards-box {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* line 296, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .carousel-item img {
+    height: 400px;
+  }
+  /* line 299, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .sixth-section {
+    min-height: 500px;
+  }
+  /* line 302, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .footer-text {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 308, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 313, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 316, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .nav-menu {
+    display: none;
+  }
+  /* line 319, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section {
+    min-height: 300px;
+  }
+  /* line 321, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section__logo {
+    width: 120px;
+  }
+  /* line 323, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section__big-img {
+    width: 365px;
+  }
+  /* line 325, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .first-section__navigation-container {
+    min-height: 60px;
+  }
+  /* line 328, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .right-wrapper {
+    width: 225px;
+  }
+  /* line 330, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+  }
+  /* line 333, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .icons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* line 336, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .icons__item {
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 12px;
+  }
+  /* line 341, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .icons i {
+    font-size: 30px;
+  }
+  /* line 345, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .buttons__btn-row {
+    margin-bottom: 15px;
+  }
+  /* line 347, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .buttons__btn {
+    width: 185px;
+    height: 35px;
+    font-size: 16px;
+  }
+  /* line 351, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .title {
+    font-size: 32px;
+  }
+  /* line 355, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .third-section__about-text {
+    font-size: 20px;
+  }
+  /* line 358, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .sixth-section {
+    min-height: 470px;
+  }
+  /* line 361, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .seventh-section {
+    min-height: 575px;
+  }
+  /* line 364, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .footer-text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  /* line 369, ../Иванов А/HTML/SeeYou/src/sass/style.sass */
+  .footer__img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
